@@ -7,6 +7,7 @@ const GifExpertApp = () => {
   const onAddCategory = (newCategory) => {
     if (categories.includes(newCategory)) return;
     //setCategories(cat => [...categories, 'Valoran']);
+    
     setCategories([newCategory, ...categories]);
   };
 
